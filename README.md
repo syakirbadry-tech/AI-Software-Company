@@ -57,4 +57,4 @@ See [LICENSE](LICENSE). No license has been formally chosen yet — this default
 
 ## History
 
-This structure was established by an audit-and-reorganize pass — see [docs/REPOSITORY_AUDIT.md](docs/REPOSITORY_AUDIT.md) for the starting state and `IMPLEMENTATION_REPORT.md` for everything that was done.
+This structure was established by an audit-and-reorganize pass — see [docs/REPOSITORY_AUDIT.md](docs/REPOSITORY_AUDIT.md) for the starting state and [IMPLEMENTATION_REPORT.md](IMPLEMENTATION_REPORT.md) for everything that was done.

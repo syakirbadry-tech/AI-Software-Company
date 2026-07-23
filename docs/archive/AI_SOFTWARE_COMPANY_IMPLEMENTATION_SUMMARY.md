@@ -1,6 +1,6 @@
 # AI Software Company Repository - Implementation Summary
 
-> **Archived / superseded:** this document describes a planned structure that did not yet exist on disk when it was written. The repository has since been built out for real — see the root [README.md](../../README.md) and [docs/REPOSITORY_AUDIT.md](../REPOSITORY_AUDIT.md) for the actual current state, and the root `IMPLEMENTATION_REPORT.md` for what was actually done. Kept here as the original design intent, not as a status report.
+> **Archived / superseded:** this document describes a planned structure that did not yet exist on disk when it was written. The repository has since been built out for real — see the root [README.md](../../README.md) and [docs/REPOSITORY_AUDIT.md](../REPOSITORY_AUDIT.md) for the actual current state, and the root `IMPLEMENTATION_REPORT.md` for what was actually done. See also [../../IMPLEMENTATION_REPORT.md](../../IMPLEMENTATION_REPORT.md) for what was actually built. Kept here as the original design intent, not as a status report.
 
 ## Overview
 
