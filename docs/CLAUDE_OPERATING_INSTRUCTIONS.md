@@ -15,8 +15,8 @@ Or, better yet: Reference these instructions at the start of each Claude session
 Before we start any work, read:
 - docs/PROJECT_CONSTITUTION.md
 - docs/DECISION_FRAMEWORK.md
-- docs/ARCHITECTURE.md
-- docs/DATABASE.md (if data changes)
+- docs/ARCHITECTURE_STANDARDS.md
+- docs/DATABASE_STANDARDS.md (if data changes)
 
 Then follow the operating instructions in docs/CLAUDE_OPERATING_INSTRUCTIONS.md
 ```
@@ -343,7 +343,7 @@ Before we start, please:
    - docs/PROJECT_CONSTITUTION.md
    - docs/ENGINEERING_PRINCIPLES.md
    - docs/DECISION_FRAMEWORK.md
-   - docs/ARCHITECTURE.md
+   - docs/ARCHITECTURE_STANDARDS.md
 
 2. Understand the decision hierarchy:
    - Simplicity > Maintainability > Reusability > Consistency > Extensibility > Performance > Scalability

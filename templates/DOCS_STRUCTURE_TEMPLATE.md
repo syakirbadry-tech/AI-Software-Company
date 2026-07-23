@@ -2,6 +2,8 @@
 
 This is the recommended folder structure and content for your `docs/` directory.
 
+> **Note:** the actual `docs/` folder in this repository uses slightly different final names than the ones below (e.g. `ARCHITECTURE_STANDARDS.md` instead of `ARCHITECTURE.md`, `AI_ORGANIZATION.md` instead of `AI_INTEGRATION.md`) — see [docs/REPOSITORY_AUDIT.md](../docs/REPOSITORY_AUDIT.md) for why. This document is kept as the original content-skeleton reference (the markdown templates below are still useful when drafting a *project's own* `docs/ARCHITECTURE.md`, etc.), not as the literal file list.
+
 ## Folder Structure
 
 ```

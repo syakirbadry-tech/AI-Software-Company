@@ -182,7 +182,7 @@ Decision Hierarchy makes simplicity the default, not a compromise.
 
 ```
 1. Read PROJECT_CONSTITUTION.md (2 min)
-2. Review ARCHITECTURE.md (3 min)
+2. Review ARCHITECTURE_STANDARDS.md (3 min)
 3. Explain your approach to Claude (following [CLAUDE_OPERATING_INSTRUCTIONS.md](CLAUDE_OPERATING_INSTRUCTIONS.md))
 4. Get approval
 5. Implement
@@ -301,35 +301,15 @@ If it's not answering these questions, simplify or update the framework.
 
 ---
 
-## Next Steps
+## Status
 
-### Immediate (This Week)
+All documents this framework depends on now exist in `docs/`: [PROJECT_CONSTITUTION.md](PROJECT_CONSTITUTION.md), [ENGINEERING_PRINCIPLES.md](ENGINEERING_PRINCIPLES.md), [DECISION_FRAMEWORK.md](DECISION_FRAMEWORK.md), [ARCHITECTURE_STANDARDS.md](ARCHITECTURE_STANDARDS.md), [DATABASE_STANDARDS.md](DATABASE_STANDARDS.md), and [CLAUDE_OPERATING_INSTRUCTIONS.md](CLAUDE_OPERATING_INSTRUCTIONS.md). Each new project built from this repository still starts by reading them and adding its own project-specific `README.md` and `CHANGELOG.md` (see [templates/PROJECT_README_TEMPLATE.md](../templates/PROJECT_README_TEMPLATE.md) and [templates/CHANGELOG_TEMPLATE.md](../templates/CHANGELOG_TEMPLATE.md)).
 
-1. Copy these documents into your `docs/` folder:
-   - PROJECT_CONSTITUTION.md
-   - ENGINEERING_PRINCIPLES.md
-   - DECISION_FRAMEWORK.md
-   - ARCHITECTURE.md
-   - DATABASE.md
-   - CLAUDE_OPERATING_INSTRUCTIONS.md
+## Ongoing Maintenance
 
-2. Update as needed for your project specifics
-
-3. Add a README pointing to these docs
-
-### Short Term (This Month)
-
-1. Use the framework for the next feature
-2. Adjust based on what works/doesn't work
-3. Add CHANGELOG.md to track decisions
-4. Share the framework with the team
-
-### Medium Term (Quarterly)
-
-1. Review effectiveness
-2. Update documents based on lessons learned
-3. Add additional docs only if there's a real need
-4. Keep it lean
+1. Use the framework on real feature work and adjust based on what works or doesn't.
+2. Review effectiveness quarterly; update documents based on lessons learned.
+3. Add additional docs only when there's a real, demonstrated need — see the "keeping this repository lean" guidance in [DOCUMENTATION_STANDARDS.md](DOCUMENTATION_STANDARDS.md).
 
 ---
 
