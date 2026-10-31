@@ -15,7 +15,7 @@ Chairman (owner)
 
 | Company | Definition | CEO |
 |---|---|---|
-| The Merc Lab | [THE_MERC_LAB.md](THE_MERC_LAB.md) | Kazumi |
+| The Merc Lab | [THE_MERC_LAB.md](THE_MERC_LAB.md) · operating instructions: [KAZUMI.md](KAZUMI.md) | Kazumi (live) |
 | Takaful Practice | [TAKAFUL_PRACTICE.md](TAKAFUL_PRACTICE.md) | Gabby |
 | Software Studio | [SOFTWARE_STUDIO.md](SOFTWARE_STUDIO.md) | George |
 | Asbenz Desk | [ASBENZ_DESK.md](ASBENZ_DESK.md) | — (assistant) |
