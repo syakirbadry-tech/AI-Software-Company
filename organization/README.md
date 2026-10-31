@@ -16,8 +16,8 @@ Chairman (owner)
 | Company | Definition | CEO |
 |---|---|---|
 | The Merc Lab | [THE_MERC_LAB.md](THE_MERC_LAB.md) · operating instructions: [KAZUMI.md](KAZUMI.md) | Kazumi (live) |
-| Takaful Practice | [TAKAFUL_PRACTICE.md](TAKAFUL_PRACTICE.md) | Gabby |
-| Software Studio | [SOFTWARE_STUDIO.md](SOFTWARE_STUDIO.md) | George |
+| Takaful Practice | [TAKAFUL_PRACTICE.md](TAKAFUL_PRACTICE.md) · operating instructions: [GABBY.md](GABBY.md) | Gabby (live) |
+| Software Studio | [SOFTWARE_STUDIO.md](SOFTWARE_STUDIO.md) · operating instructions: [GEORGE.md](GEORGE.md) | George (live) |
 | Asbenz Desk | [ASBENZ_DESK.md](ASBENZ_DESK.md) | — (assistant) |
 | Shared services | [SHARED_SERVICES.md](SHARED_SERVICES.md) | — |
 
@@ -43,4 +43,14 @@ Chairman (owner)
 
 Each CEO is a scheduled or on-demand Claude session that reads its company's records, writes a briefing, assigns department work, and files drafts for approval. Agents act when a schedule fires or the Chairman messages them; they are not running continuously.
 
-Current schedule: morning brief Mon–Sat 08:15 and weekly plan Sunday 19:43 (Asia/Kuala_Lumpur).
+Current schedule (Asia/Kuala_Lumpur):
+
+| When | Who |
+|---|---|
+| Mon–Sat 08:15 | Morning brief |
+| Mon–Sat 17:17 | Kazumi, The Merc Lab |
+| Mon and Wed 17:27 | Gabby, Takaful Practice |
+| Wed and Sat 17:37 | George, Software Studio |
+| Sun 19:43 | Weekly plan |
+
+The Chairman can also talk to every CEO, and the Asbenz Desk assistant, in the TORQUE Command Center chat, which reads the Command Center live.
