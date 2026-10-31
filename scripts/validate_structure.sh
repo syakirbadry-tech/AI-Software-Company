@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 # Validates that the repository has the expected top-level structure and
-# that relative Markdown links within docs/, templates/, prompts/, agents/,
+# that relative Markdown links within docs/, templates/, prompts/, agents/, organization/,
 # and examples/ resolve to real files. Exits non-zero if anything is missing.
 
 set -eu
@@ -19,7 +19,7 @@ for entry in README.md LICENSE CONTRIBUTING.md docs templates prompts agents exa
 done
 
 echo "== Checking relative Markdown links =="
-find docs templates prompts agents examples -type f -name '*.md' 2>/dev/null > "$problems_file.files"
+find docs templates prompts agents examples organization -type f -name '*.md' 2>/dev/null > "$problems_file.files"
 while read -r file; do
   dir=$(dirname "$file")
   grep -oE '\]\(([^)#]+)(#[^)]*)?\)' "$file" 2>/dev/null | sed -E 's/^\]\(([^)#]+).*/\1/' > "$problems_file.links" || true

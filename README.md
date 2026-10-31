@@ -19,6 +19,7 @@ AI-Software-Company/
 ├── templates/             Copy-ready templates (ADRs, checklists, proposals, reports, ...)
 ├── prompts/               Ready-to-use prompts for directing an AI assistant through a role
 ├── agents/                Role definitions (Solution Architect, Backend Engineer, QA, Docs)
+├── organization/          The AI business team: CEOs, departments, group rules
 ├── examples/              Reference project layouts (Portal, Workshop, CRM, Quotation, Inventory)
 ├── scripts/               Repository automation (structure validation, project scaffolding)
 └── .github/               PR/issue templates, CODEOWNERS, CI workflow
