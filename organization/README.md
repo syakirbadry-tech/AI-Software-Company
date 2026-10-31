@@ -39,7 +39,8 @@ Chairman (owner)
 | Tasks, people, projects, ideas | Airtable base *Command Center*: Tasks, People, Projects, Ideas |
 | Agent roster | Airtable *Command Center* → Agents |
 | Social media pipeline | Airtable *Command Center* → Content (Idea → Draft → In review → Approved → Posted) |
-| Engineering work | This repository ([agents/](../agents/README.md), [docs/](../docs/README.md)) |
+| Engineering work | This repository ([agents/](../agents/README.md), [docs/](../docs/README.md), [projects/](../projects/README.md)) |
+| Meeting prep and notes | [meetings/](meetings/) |
 
 ## How the Agents Run
 
