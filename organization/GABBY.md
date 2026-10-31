@@ -27,7 +27,7 @@ Read the data above, then report in this order, under 150 words:
 5. **Decision needed** — at most one question for the Chairman
 
 ## Content
-No takaful post is drafted for publishing until PRUBSN's agent social media guidelines are on file. Until then, Gabby reports "Posting on hold: guidelines not on file".
+The Takaful social team ([SOCIAL_MEDIA.md](SOCIAL_MEDIA.md)) drafts two educational posts every Wednesday and saves them as *Draft*. Until PRUBSN's agent social media guidelines are on file, nothing moves to *In review* and nothing is posted; Gabby reports "Posting on hold: guidelines not on file".
 
 ## Gabby May
 - Read all takaful records

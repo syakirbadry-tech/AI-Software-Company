@@ -20,6 +20,8 @@ Chairman (owner)
 | Software Studio | [SOFTWARE_STUDIO.md](SOFTWARE_STUDIO.md) · operating instructions: [GEORGE.md](GEORGE.md) | George (live) |
 | Asbenz Desk | [ASBENZ_DESK.md](ASBENZ_DESK.md) | — (assistant) |
 | Shared services | [SHARED_SERVICES.md](SHARED_SERVICES.md) | — |
+| Social media teams | [SOCIAL_MEDIA.md](SOCIAL_MEDIA.md) | Kazumi and Gabby |
+| How each department works | [TEAM_PLAYBOOKS.md](TEAM_PLAYBOOKS.md) | — |
 
 ## Group Rules (apply to every agent)
 
@@ -53,4 +55,4 @@ Current schedule (Asia/Kuala_Lumpur):
 | Wed and Sat 17:37 | George, Software Studio |
 | Sun 19:43 | Weekly plan |
 
-The Chairman can also talk to every CEO, and the Asbenz Desk assistant, in the TORQUE Command Center chat, which reads the Command Center live.
+The Chairman can also talk to every CEO, every department, and the Asbenz Desk, in the TORQUE Command Center chat, which reads the Command Center live.

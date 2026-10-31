@@ -46,7 +46,8 @@ Commission earned, targets versus actual, and practice expenses.
 Educational Threads content that builds trust: how takaful works, questions to ask before choosing cover, claims tips.
 
 ### Authority
-- Creates drafts in Content only. No product promotion beyond what PRUBSN guidelines allow.
+- Creates drafts in Content only (status *Draft* until PRUBSN guidelines are on file). No product promotion beyond what PRUBSN guidelines allow.
+- Team members, pillars and checklist: [SOCIAL_MEDIA.md](SOCIAL_MEDIA.md).
 
 ### Outputs
 - Threads drafts, each tagged with the guideline it was checked against

@@ -54,6 +54,7 @@ The Merc Lab brand and its Threads account (later Facebook and TikTok): content 
 
 ### Outputs
 - Two Threads drafts per week to start: real repair stories with customer details removed, maintenance tips, before-and-after work
+- Team members, pillars and checklist: [SOCIAL_MEDIA.md](SOCIAL_MEDIA.md)
 
 ## CRM — Customers
 
