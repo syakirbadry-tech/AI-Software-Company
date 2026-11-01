@@ -17,7 +17,7 @@ How George's Software Studio watches the group's four systems. The Chairman sees
 
 | System | Code checks (run now) | Live check (needs network access) |
 |---|---|---|
-| OSH-C Portal | Syntax check of all server and front-end JavaScript; the 16 `server/scripts/test-*.js` scripts; `npm audit --omit=dev`; open pull requests; new commits on `main` | `https://osh-c-portal.onrender.com` answers |
+| OSH-C Portal | Syntax check of all server and front-end JavaScript; the 16 `server/scripts/test-*.js` scripts; `npm audit --omit=dev`; open pull requests; new commits on `main` | The live Render address answers (address to be confirmed by the Chairman) |
 | PRUBSN Agent Portal | `npm ci && npm test` (50 tests); `npm audit`; vendored `vendor/pdf.min.js` version; open pull requests | Not deployed yet |
 | Merc Lab DMS | `manifest.json` is valid JSON; `service-worker.js` syntax; icons present; open pull requests; no personal data committed (public repository) | GitHub Pages address answers |
 | Workshop Datahub | `python3 -m py_compile app.py`; start locally on a spare port and request `/`, `/login`, `/signup`; open pull requests | Not deployed yet |
@@ -47,7 +47,7 @@ Current baseline after the merges: OSH-C and Agent Portal audits report 0 vulner
 
 ## Known Limit
 
-The cloud environment's network policy blocks `osh-c-portal.onrender.com` and `syakirbadry-tech.github.io`, so live uptime checks are skipped until those hosts are added under the environment's allowed domains.
+The cloud environment's network policy blocks outside websites such as Render and GitHub Pages, so live uptime checks are skipped until those hosts are added under the environment's allowed domains. The OSH-C Portal's real Render address is not recorded yet.
 
 ## Baseline, 1 November 2026
 
