@@ -18,6 +18,12 @@ A subscription platform for independent Mercedes-Benz workshops: a shared diagno
 2. Before any outside workshop signs up: hosting, payments, terms of use and PDPA review (VINs and case notes).
 3. Pricing for the tiers is the Chairman's decision.
 
+## Technical notes for the studio
+
+- Runs with `python3 app.py`; the port comes from `PORT` (default 5000). On first run it writes admin credentials to `ADMIN_CREDENTIALS.txt`: never commit that file.
+- No automated tests yet; the daily check compiles `app.py` and smoke-tests `/`, `/login` and `/signup` locally.
+- Health checks: [organization/MONITORING.md](../../organization/MONITORING.md).
+
 ## Rules for the team
 
 - No customer names or plates in shared tips; VINs stay in the private case log.

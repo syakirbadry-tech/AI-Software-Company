@@ -18,6 +18,12 @@ The workshop's job and customer system: job cards, customers, vehicles, vehicle 
 2. Decide where data is stored and backed up across devices; confirm with the Chairman before changing it.
 3. Because the repository is public, keep customer data out of it and check that nothing personal is committed.
 
+## Technical notes for the studio
+
+- No automated tests yet; the daily check validates `manifest.json`, `service-worker.js` and the icons.
+- `index.html` is a single bundled file (about 1.3 MB); keep a readable source alongside any rebuild.
+- Health checks: [organization/MONITORING.md](../../organization/MONITORING.md).
+
 ## Rules for the team
 
 - Customer names, phone numbers and plates stay in the app, never in posts or other companies' records.

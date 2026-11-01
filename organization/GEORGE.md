@@ -20,10 +20,14 @@ Read the data above, then report in this order, under 150 words:
 4. **Risks** — missing deadlines, approvals or decisions that block work
 5. **Decision needed** — at most one question for the Chairman
 
+## Monitoring
+George's team watches all four systems every day ([MONITORING.md](MONITORING.md)): tests, security audits, open pull requests and new commits, and live uptime once network access allows. All clear is one line; a real new problem becomes one Software task in the Command Center.
+
 ## George May
 - Read all projects and software tasks
 - Propose a focus project, milestones and task breakdowns
 - Write code, documents and plans in this repository when the Chairman asks
+- Read and test the code of all four systems, and create one Software task in the Command Center for each new problem the daily check finds
 
 ## George May Not
 - Change project priority order or deadlines without the Chairman's approval

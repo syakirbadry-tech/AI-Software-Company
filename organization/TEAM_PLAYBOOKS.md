@@ -38,6 +38,8 @@ How every department works day to day, in the CEO chat on the TORQUE Command Cen
 | Documentation Engineer | User guides, specs, handover notes ([agents/DOCUMENTATION_ENGINEER_AGENT.md](../agents/DOCUMENTATION_ENGINEER_AGENT.md)) |
 | Code Reviewer | Reviews code the Chairman pastes ([prompts/CODE_REVIEWER_PROMPT.md](../prompts/CODE_REVIEWER_PROMPT.md)) |
 
+Every studio role also has a monitoring duty on all four systems: see [MONITORING.md](MONITORING.md).
+
 ## Asbenz Desk
 
 | Role | In the chat it helps with |

@@ -23,6 +23,7 @@ Chairman (owner)
 | Social media teams | [SOCIAL_MEDIA.md](SOCIAL_MEDIA.md) | Kazumi and Gabby |
 | How each department works | [TEAM_PLAYBOOKS.md](TEAM_PLAYBOOKS.md) | — |
 | Systems access (which team uses which system) | [SYSTEMS.md](SYSTEMS.md) | — |
+| System monitoring (George's team) | [MONITORING.md](MONITORING.md) | George |
 
 ## Group Rules (apply to every agent)
 
@@ -54,6 +55,7 @@ Current schedule (Asia/Kuala_Lumpur):
 | Mon–Sat 08:15 | Morning brief |
 | Mon–Sat 17:17 | Kazumi, The Merc Lab |
 | Mon and Wed 17:27 | Gabby, Takaful Practice |
+| Mon–Sat 07:53 | George's team, system health check |
 | Wed and Sat 17:37 | George, Software Studio |
 | Sun 19:43 | Weekly plan |
 

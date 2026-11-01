@@ -23,13 +23,20 @@ A login-protected EHS compliance portal organised by business function:
 
 ## Next on its roadmap (from the repository)
 
-1. Noise Management module
+1. Noise Management module: in progress, pull request #8 (stage 2 tabs and NRA report upload, behind the `noise.stage2` flag, off)
 2. Operational Safety module (High Risk + SOP, Permit to Work, Contractors, Safety Inspections)
 3. Gap Analysis and Project Progress modules
 4. Interface: sidebar, dashboard redesign, notification centre, global search
 5. Later: Employee Safety, Incident Management, Inspection and Audit, Reports and Analytics
 
 Source of truth: `PROJECT_ROADMAP.md` and `TODO.md` in the repository.
+
+## Technical notes for the studio
+
+- Architecture, data model and permissions: `ARCHITECTURE.md`, `DATABASE.md`, `PERMISSION_SYSTEM.md` in the repository.
+- Every Airtable table and field ID is hardcoded for production in `server/lib/schema.js` (30 tables, 433 fields); a staging Render service uses a separate test base with dummy data (`STAGING.md`). Test there, never on production data.
+- New features ship behind flags (for example `noise.stage2`, `outlets.enabled`) and are switched on deliberately.
+- Health checks and the latest baseline: [organization/MONITORING.md](../../organization/MONITORING.md).
 
 ## Rules for the team
 

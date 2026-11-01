@@ -19,9 +19,15 @@ A quotation generator for agents. An agent uploads 1 to 3 PruBSN Product Illustr
 
 ## Next steps (from the repository)
 
-1. Tidy the two stray files noted in `docs/OVERNIGHT_WORK_REPORT.md`, then merge the review branch.
-2. Add a browser test for the same-client mismatch case.
+1. Update the vendored `vendor/pdf.min.js` and `pdfjs-dist` from 6.1.200 to 6.2.108 or later (high security advisory).
+2. Add a browser test for the same-client mismatch case (the review-hardening branch was merged on 28 July as pull request #2).
 3. Phase 2: wire real publishing, only after PRUBSN confirms what client data may leave the browser.
+
+## Technical notes for the studio
+
+- `npm ci && npm test` runs 50 tests with Node's built-in runner; `npm run build:agent-review` bundles the screen.
+- Engine reuse and decisions: `PROVENANCE.md`, `docs/ARCHITECTURE_DECISIONS.md`, `docs/ENGINE_REUSE_MANIFEST.md`.
+- Health checks and the latest baseline: [organization/MONITORING.md](../../organization/MONITORING.md).
 
 ## Rules for the team
 
