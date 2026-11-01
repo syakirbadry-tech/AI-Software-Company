@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Repository | [syakirbadry-tech/Safety-and-Health-Asbenz-Motors](https://github.com/syakirbadry-tech/Safety-and-Health-Asbenz-Motors) (private) |
-| Live app | On Render; address not recorded yet (the README's `osh-c-portal.onrender.com` is only an example) |
+| Live app | https://safety-and-health-asbenz-motors.onrender.com (Render; confirmed by the Chairman 1 Nov 2026) |
 | Older copy | [syakirbadry-tech/DOSH_Portal-](https://github.com/syakirbadry-tech/DOSH_Portal-), July 2026, replaced by the repository above |
 | Stack | Node.js 20 + Express server, plain JavaScript front end, Airtable base `appqSxDrzpfO1ybFw` (the OSH-C base, separate from the Command Center), JWT login, iOS wrapper (`ios-app/`, Codemagic) |
 | Version | v2.7.1 (Enterprise Permission System) |
