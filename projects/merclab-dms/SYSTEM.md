@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Repository | [syakirbadry-tech/merclab-app](https://github.com/syakirbadry-tech/merclab-app) (public) |
-| Live app | GitHub Pages, installable on a phone (see the repository's QUICK-DEPLOY.md for the address) |
+| Live app | https://syakirbadry-tech.github.io/merclab-app/ (GitHub Pages, installable on a phone; answered 1 Nov 2026) |
 | Stack | Progressive web app: one bundled `index.html`, `manifest.json`, `service-worker.js` for offline use |
 
 ## What it does today

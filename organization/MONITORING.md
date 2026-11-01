@@ -19,7 +19,7 @@ How George's Software Studio watches the group's four systems. The Chairman sees
 |---|---|---|
 | OSH-C Portal | Syntax check of all server and front-end JavaScript; the 16 `server/scripts/test-*.js` scripts; `npm audit --omit=dev`; open pull requests; new commits on `main` | `https://safety-and-health-asbenz-motors.onrender.com/login.html` answers |
 | PRUBSN Agent Portal | `npm ci && npm test` (50 tests); `npm audit`; vendored `vendor/pdf.min.js` version; open pull requests | Not deployed yet |
-| Merc Lab DMS | `manifest.json` is valid JSON; `service-worker.js` syntax; icons present; open pull requests; no personal data committed (public repository) | GitHub Pages address answers |
+| Merc Lab DMS | `manifest.json` is valid JSON; `service-worker.js` syntax; icons present; open pull requests; no personal data committed (public repository) | `https://syakirbadry-tech.github.io/merclab-app/` answers |
 | Workshop Datahub | `python3 -m py_compile app.py`; start locally on a spare port and request `/`, `/login`, `/signup`; open pull requests | Not deployed yet |
 
 ## Schedule and Reporting
@@ -45,9 +45,9 @@ All three were merged by the Chairman on 1 November and re-checked on `main`.
 
 Current baseline after the merges: OSH-C and Agent Portal audits report 0 vulnerabilities; the Datahub ignores its credentials and database files.
 
-## Known Limit
+## Live Access
 
-The cloud environment's network policy blocks outside websites such as Render and GitHub Pages, so live uptime checks are skipped until those hosts are added under the environment's allowed domains. Confirmed OSH-C Portal address: https://safety-and-health-asbenz-motors.onrender.com (the Chairman reached it after the 1 November security update, including the Noise Management page).
+Since 1 November 2026 the environment allows `safety-and-health-asbenz-motors.onrender.com` and `syakirbadry-tech.github.io`, so the daily check also tests the live apps. First live check, 1 Nov: OSH-C Portal home, `/login.html` and `/noise` answered 200 in under a second; Merc Lab DMS at https://syakirbadry-tech.github.io/merclab-app/ answered 200. Render's free plan can sleep when idle, so one slow first answer is not a fault; two failed tries in a row is.
 
 ## Baseline, 1 November 2026
 
