@@ -14,9 +14,10 @@ A subscription platform for independent Mercedes-Benz workshops: a shared diagno
 
 ## Next steps
 
-1. Feed it real fault cases from the Merc Lab DMS once fault-case recording exists there.
-2. Before any outside workshop signs up: hosting, payments, terms of use and PDPA review (VINs and case notes).
-3. Pricing for the tiers is the Chairman's decision.
+1. Add a `.gitignore` (the repository is public; running the app writes `ADMIN_CREDENTIALS.txt` and a SQLite file into the folder).
+2. Feed it real fault cases from the Merc Lab DMS once fault-case recording exists there.
+3. Before any outside workshop signs up: hosting, payments, terms of use and PDPA review (VINs and case notes).
+4. Pricing for the tiers is the Chairman's decision.
 
 ## Technical notes for the studio
 

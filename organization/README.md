@@ -25,6 +25,7 @@ Chairman (owner)
 | Systems access (which team uses which system) | [SYSTEMS.md](SYSTEMS.md) | — |
 | System monitoring (George's team) | [MONITORING.md](MONITORING.md) | George |
 | Agent IDs and change tracking | [AGENT_IDS.md](AGENT_IDS.md) | — |
+| Weekly app reports | [APP_REPORTS.md](APP_REPORTS.md) | All CEOs |
 
 ## Group Rules (apply to every agent)
 
@@ -60,6 +61,7 @@ Current schedule (Asia/Kuala_Lumpur):
 | Mon and Wed 17:27 | Gabby, Takaful Practice |
 | Mon–Sat 07:53 | George's team, system health check |
 | Wed and Sat 17:37 | George, Software Studio |
+| Sat 09:47 | Weekly app report from every CEO |
 | Sun 19:43 | Weekly plan |
 
 The Chairman can also talk to every CEO, every department, and the Asbenz Desk, in the TORQUE Command Center chat, which reads the Command Center live.
