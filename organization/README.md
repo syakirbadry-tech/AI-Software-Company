@@ -24,6 +24,7 @@ Chairman (owner)
 | How each department works | [TEAM_PLAYBOOKS.md](TEAM_PLAYBOOKS.md) | — |
 | Systems access (which team uses which system) | [SYSTEMS.md](SYSTEMS.md) | — |
 | System monitoring (George's team) | [MONITORING.md](MONITORING.md) | George |
+| Agent IDs and change tracking | [AGENT_IDS.md](AGENT_IDS.md) | — |
 
 ## Group Rules (apply to every agent)
 
@@ -33,13 +34,15 @@ Chairman (owner)
 4. **Personal data is removed before publishing.** Names, plate numbers, VINs, phone numbers, policy details and photos of faces are stripped or blurred in any public content (Malaysia PDPA).
 5. **Regulated content is checked first.** Takaful content follows PRUBSN's agent social media guidelines and regulator rules: no promised returns, no misleading claims, no client details. If guidelines are not on file, the post is not published.
 6. **Agents state facts they can show.** Reports cite the Command Center record they come from. If something is unknown, the agent says so rather than guessing.
+7. **Every change is signed.** Each team member has a permanent Agent ID ([AGENT_IDS.md](AGENT_IDS.md)). Every change to a record, post or line of code carries the ID of whoever made it and who asked for it, and is logged in the Change Log.
 
 ## Where the Team Works
 
 | Need | Location |
 |---|---|
 | Tasks, people, projects, ideas | Airtable base *Command Center*: Tasks, People, Projects, Ideas |
-| Agent roster | Airtable *Command Center* → Agents |
+| Agent roster and IDs | Airtable *Command Center* → Agents ([AGENT_IDS.md](AGENT_IDS.md)) |
+| Who changed what | Airtable *Command Center* → Change Log |
 | Social media pipeline | Airtable *Command Center* → Content (Idea → Draft → In review → Approved → Posted) |
 | Engineering work | This repository ([agents/](../agents/README.md), [docs/](../docs/README.md), [projects/](../projects/README.md)) |
 | Meeting prep and notes | [meetings/](meetings/) |
