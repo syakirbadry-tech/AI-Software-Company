@@ -20,7 +20,7 @@ AI-Software-Company/
 ├── prompts/               Ready-to-use prompts for directing an AI assistant through a role
 ├── agents/                Role definitions (Solution Architect, Backend Engineer, QA, Docs)
 ├── organization/          The AI business team: CEOs, departments, group rules
-├── projects/              The group's own projects: proposals and plans (OSH Portal, Agent Portal)
+├── projects/              The group's own systems: OSH-C Portal, Agent Portal, Merc Lab DMS, Datahub
 ├── examples/              Reference project layouts (Portal, Workshop, CRM, Quotation, Inventory)
 ├── scripts/               Repository automation (structure validation, project scaffolding)
 └── .github/               PR/issue templates, CODEOWNERS, CI workflow

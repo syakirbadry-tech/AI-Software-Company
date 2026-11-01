@@ -1,10 +1,10 @@
 # Projects
 
-Working folders for the Software Studio's projects (see [organization/SOFTWARE_STUDIO.md](../organization/SOFTWARE_STUDIO.md)). Each project starts with a proposal built from [templates/PROJECT_PROPOSAL_TEMPLATE.md](../templates/PROJECT_PROPOSAL_TEMPLATE.md) and follows the standards in [docs/](../docs/README.md).
+The systems the Software Studio builds and the teams that use them. Each folder holds a `SYSTEM.md`: what the system does today, where its code and live app are, what comes next, and the rules for the team. Who may do what with each system is in [organization/SYSTEMS.md](../organization/SYSTEMS.md).
 
-| # | Project | For | Status | Folder |
-|---|---|---|---|---|
-| 1 | OSH Portal | Asbenz Motors | Proposal, waiting for requirements (Mon 2 Nov) | [osh-portal/](osh-portal/PROPOSAL.md) |
-| 2 | PRUBSN Agent Portal | Takaful Practice | Proposal, waiting for requirements and PRUBSN rules | [agent-portal/](agent-portal/PROPOSAL.md) |
-| 3 | Workshop DMS | The Merc Lab | Building (outside this repository) | — |
-| 4 | Workshop Datahub | The Merc Lab | Idea, waits for DMS fault cases | — |
+| # | System | Business | Used by | Repository | Profile |
+|---|---|---|---|---|---|
+| 1 | OSH-C Portal | Asbenz Motors | Asbenz Desk | [Safety-and-Health-Asbenz-Motors](https://github.com/syakirbadry-tech/Safety-and-Health-Asbenz-Motors) | [osh-portal/](osh-portal/SYSTEM.md) |
+| 2 | PRUBSN Agent Portal | Takaful Practice | Gabby's team | [Agent_Portal](https://github.com/syakirbadry-tech/Agent_Portal) | [agent-portal/](agent-portal/SYSTEM.md) |
+| 3 | Merc Lab DMS | The Merc Lab | Kazumi's team | [merclab-app](https://github.com/syakirbadry-tech/merclab-app) | [merclab-dms/](merclab-dms/SYSTEM.md) |
+| 4 | Workshop Datahub | The Merc Lab | Kazumi's Technical team | [workshop-diagnostic-network](https://github.com/syakirbadry-tech/workshop-diagnostic-network) | [workshop-datahub/](workshop-datahub/SYSTEM.md) |

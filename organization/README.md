@@ -22,6 +22,7 @@ Chairman (owner)
 | Shared services | [SHARED_SERVICES.md](SHARED_SERVICES.md) | — |
 | Social media teams | [SOCIAL_MEDIA.md](SOCIAL_MEDIA.md) | Kazumi and Gabby |
 | How each department works | [TEAM_PLAYBOOKS.md](TEAM_PLAYBOOKS.md) | — |
+| Systems access (which team uses which system) | [SYSTEMS.md](SYSTEMS.md) | — |
 
 ## Group Rules (apply to every agent)
 

@@ -22,12 +22,14 @@ Delivers the group's software projects in priority order and serves as Head of I
 
 ## Project Portfolio (priority order)
 
-| # | Project | For | Notes |
-|---|---|---|---|
-| 1 | OSH Portal | Asbenz Motors | Deadline to be confirmed with Asbenz |
-| 2 | PRUBSN Agent Portal | Takaful Practice | PRUBSN approval needed before real client data |
-| 3 | Workshop DMS | The Merc Lab | Must record fault cases from day one |
-| 4 | Workshop Datahub | The Merc Lab | Starts when the DMS has real fault cases |
+| # | Project | For | Repository | Notes |
+|---|---|---|---|---|
+| 1 | OSH-C Portal | Asbenz Motors | [Safety-and-Health-Asbenz-Motors](https://github.com/syakirbadry-tech/Safety-and-Health-Asbenz-Motors) | v2.7 live; Noise Management next; deadline to confirm |
+| 2 | PRUBSN Agent Portal | Takaful Practice | [Agent_Portal](https://github.com/syakirbadry-tech/Agent_Portal) | Phase 1 quotation review; PRUBSN approval needed before real client data leaves the browser |
+| 3 | Merc Lab DMS | The Merc Lab | [merclab-app](https://github.com/syakirbadry-tech/merclab-app) | Phone app live; add fault-case recording |
+| 4 | Workshop Datahub | The Merc Lab | [workshop-diagnostic-network](https://github.com/syakirbadry-tech/workshop-diagnostic-network) | Prototype; waits for real fault cases from the DMS |
+
+System profiles: [projects/](../projects/README.md). Who may do what with each system: [SYSTEMS.md](SYSTEMS.md).
 
 ## Team
 
