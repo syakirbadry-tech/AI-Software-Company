@@ -35,6 +35,7 @@ Source of truth: `PROJECT_ROADMAP.md` and `TODO.md` in the repository.
 
 - Architecture, data model and permissions: `ARCHITECTURE.md`, `DATABASE.md`, `PERMISSION_SYSTEM.md` in the repository.
 - Every Airtable table and field ID is hardcoded for production in `server/lib/schema.js` (30 tables, 433 fields); a staging Render service uses a separate test base with dummy data (`STAGING.md`). Test there, never on production data.
+- Dependencies patched 1 Nov (pull request #9): `npm audit --omit=dev` reports 0 vulnerabilities.
 - Tests: 16 scripts in `server/scripts/test-*.js`, run with `node`; no CI runs them yet.
 - New features ship behind flags (for example `noise.stage2`, `outlets.enabled`) and are switched on deliberately.
 - Health checks and the latest baseline: [organization/MONITORING.md](../../organization/MONITORING.md).

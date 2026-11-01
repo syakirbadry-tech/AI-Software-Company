@@ -33,13 +33,17 @@ A problem that is new and real becomes one task in the Command Center (Type *Sof
 
 Severity: **Critical** (app down, data exposed, critical security advisory), **High** (high advisory, failing tests), **Medium** (moderate advisory, stale pull request), **Low** (housekeeping).
 
-## Fixes in Review (1 November 2026)
+## Fixes Merged (1 November 2026)
+
+All three were merged by the Chairman on 1 November and re-checked on `main`.
 
 | System | Pull request | Fix |
 |---|---|---|
-| OSH-C Portal | [#9](https://github.com/syakirbadry-tech/Safety-and-Health-Asbenz-Motors/pull/9) | Dependency update: 0 vulnerabilities |
+| OSH-C Portal | [#9](https://github.com/syakirbadry-tech/Safety-and-Health-Asbenz-Motors/pull/9) | Dependency update: 0 vulnerabilities, 16/16 test scripts |
 | Workshop Datahub | [#1](https://github.com/syakirbadry-tech/workshop-diagnostic-network/pull/1) | `.gitignore` for admin credentials and database |
-| Agent Portal | [#3](https://github.com/syakirbadry-tech/Agent_Portal/pull/3) | pdf.js 6.4.299 (GHSA-hq66-cqwq-w95j) |
+| Agent Portal | [#3](https://github.com/syakirbadry-tech/Agent_Portal/pull/3) | pdf.js 6.4.299 (GHSA-hq66-cqwq-w95j): 0 vulnerabilities, 50/50 tests |
+
+Current baseline after the merges: OSH-C and Agent Portal audits report 0 vulnerabilities; the Datahub ignores its credentials and database files.
 
 ## Known Limit
 
