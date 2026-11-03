@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Command Center//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:chra-briefing-20261116@command-center
+DTSTAMP:20261103T022000Z
+DTSTART:20261116T080000Z
+DTEND:20261116T090000Z
+SUMMARY:CHRA Report Briefing @ Asbenz (Service Centre)
+LOCATION:https://meet.google.com/wfk-xkbr-jcc
+DESCRIPTION:Google Meet: https://meet.google.com/wfk-xkbr-jcc
+URL:https://meet.google.com/wfk-xkbr-jcc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:CHRA Report Briefing in 10 minutes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
