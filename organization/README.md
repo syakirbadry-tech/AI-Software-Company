@@ -65,3 +65,7 @@ Current schedule (Asia/Kuala_Lumpur):
 | Sun 19:43 | Weekly plan |
 
 The Chairman can also talk to every CEO, every department, and the Asbenz Desk, in the TORQUE Command Center chat, which reads the Command Center live.
+
+## Operating Model (from 10 Nov 2026)
+
+CEOs run their teams: the Chairman gives an order, the team decides and does the work, and the Chairman only confirms the final outward step. See [OPERATING_MODEL.md](OPERATING_MODEL.md). Orders live in the Airtable **Orders** table; the team runner works them hourly, 07:23–23:23 Kuala Lumpur.
