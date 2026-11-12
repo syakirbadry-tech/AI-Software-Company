@@ -33,13 +33,13 @@ If any point fails, the CEO sends the work back to the department with the reaso
 - Drafts of anything: posts, messages, quotations, reports, documents, meeting notes
 - Airtable records in its own company: create and update Tasks, People, Projects, Content and Ideas, always signed with its Agent ID and logged in the Change Log
 - Code: branches, commits, tests and pull requests in the four system repositories (branch `claude/<agent-id>-<topic>`, `Agent-ID` and `Requested-by` trailers)
+- Merging into `main`, which updates the live app (decided by the Chairman, 12 Nov 2026), once all of these hold: the tests pass, the Code Reviewer (SS-CR) has reviewed the pull request, and the CEO check has passed. Changes that touch live data, delete data or change how people log in stay behind a feature flag that is off, or wait for the Chairman. The order then closes as Done with a short "what changed and how to undo it" note, so the Chairman is told afterwards instead of asked first.
 - Choosing between options when the Chairman has not stated a preference, with the reason written in the order's Plan
 
 ## What waits for the Chairman's final OK
 
 One tap on Approve covers the step written in "Needs your OK for":
 
-- Merging a pull request into `main`, which updates the live app
 - Anything that goes outside: publishing a post, sending a WhatsApp, email or message, contacting a customer, client, upline, manager or supplier
 - Money: prices, quotations sent to a customer, spending, payments
 - Deleting records or data, or changing a project's deadline
