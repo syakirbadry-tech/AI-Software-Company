@@ -10,7 +10,8 @@ Chairman → CEO (Command Center chat or this Claude chat)
    → Team runner picks it up (hourly, 07:23–23:23 Kuala Lumpur, or at once when the Chairman asks in the Claude chat)
    → CEO plans, assigns departments by Agent ID, departments do the work (Status: Working)
    → CEO checks the work against the order (see "CEO check" below); if it falls short, back to the department
-   → Final result, links and the one step that needs the Chairman (Status: Waiting for you)
+   → Code: the team merges it into main itself and closes the order as Done, telling the Chairman what changed
+   → Anything else: final result, links and the one step that needs the Chairman (Status: Waiting for you)
    → Chairman taps Approve or Send back in the Command Center
    → Approved: the team takes the final step, then Done.  Sent back: the team revises.
 ```
