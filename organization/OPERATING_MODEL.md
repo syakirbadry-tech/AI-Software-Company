@@ -9,10 +9,22 @@ Chairman → CEO (Command Center chat or this Claude chat)
    → Order saved in Airtable "Orders" (Status: New)
    → Team runner picks it up (hourly, 07:23–23:23 Kuala Lumpur, or at once when the Chairman asks in the Claude chat)
    → CEO plans, assigns departments by Agent ID, departments do the work (Status: Working)
+   → CEO checks the work against the order (see "CEO check" below); if it falls short, back to the department
    → Final result, links and the one step that needs the Chairman (Status: Waiting for you)
    → Chairman taps Approve or Send back in the Command Center
    → Approved: the team takes the final step, then Done.  Sent back: the team revises.
 ```
+
+## CEO check before handover
+
+Nothing reaches the Chairman until the CEO has checked it. The CEO signs the check in the order's Result as "Checked by <CEO Agent ID>" and confirms:
+
+1. **It answers the order.** The result does what the Chairman asked, in the reading written in the Plan.
+2. **It works.** Code: tests pass and the reviewer (SS-CR) has read the pull request. Posts: the reviewer (SH-REV, or TK-CMP for takaful) passed it. Records: they open and read correctly.
+3. **It follows the rules.** No personal data in public content, no data copied between companies, no prices or promises the Chairman has not given.
+4. **One clear step is left.** "Needs your OK for" names a single outward step, or "Nothing - for your information".
+
+If any point fails, the CEO sends the work back to the department with the reason, and the order stays Working until it passes.
 
 ## What a team decides and does alone
 
